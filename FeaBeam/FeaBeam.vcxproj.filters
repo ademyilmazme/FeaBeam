@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{d6ce4cdb-bc43-452c-9427-0caa84db3127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{528fa1f9-d17b-4cfe-b463-da2aba8a5de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh\Node">
+      <UniqueIdentifier>{eb7e4401-bc91-4791-bec3-14d071080e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh\Node">
+      <UniqueIdentifier>{39f12f5f-22d4-4760-8d35-38167924184b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh\Element">
+      <UniqueIdentifier>{ed3156e1-8df4-4078-8531-7e22164a8a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh\Element">
+      <UniqueIdentifier>{ef34bd2b-f06c-4f58-a39b-9e5a2063ead3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh\Element\1D">
+      <UniqueIdentifier>{08e66a1d-de47-4700-a5ad-56e05b038d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Material">
+      <UniqueIdentifier>{ae0939ff-b3a2-496e-96f1-c47d0599d0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material">
+      <UniqueIdentifier>{f7a36cd1-b8c5-4058-a157-c9494368cad9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeaBeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeNode.cpp">
+      <Filter>Source Files\Mesh\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="FeNodeCollection.cpp">
+      <Filter>Source Files\Mesh\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="FeElement.cpp">
+      <Filter>Source Files\Mesh\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="FeElementCollection.cpp">
+      <Filter>Source Files\Mesh\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="İsotropicMaterial.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="FeMaterial.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="OrtotropicMaterial.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="FeMaterialCollection.cpp">
+      <Filter>Source Files\Material</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FeNode.h">
+      <Filter>Header Files\Mesh\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="FeElement.h">
+      <Filter>Header Files\Mesh\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FeNodeCollection.h">
+      <Filter>Header Files\Mesh\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="FeElementCollection.h">
+      <Filter>Header Files\Mesh\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="FeMaterial.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="IsotropicMaterial.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="OrtotropicMaterial.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="FeMaterialCollection.h">
+      <Filter>Header Files\Material</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
