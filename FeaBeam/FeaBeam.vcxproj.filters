@@ -40,6 +40,15 @@
     <Filter Include="Source Files\Material">
       <UniqueIdentifier>{f7a36cd1-b8c5-4058-a157-c9494368cad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Section">
+      <UniqueIdentifier>{1c1b58bb-417a-4a81-bc04-abad10571c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Section">
+      <UniqueIdentifier>{4655cc1b-b246-40d9-831c-51af7e9368d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Section\Beam">
+      <UniqueIdentifier>{8949e7e7-1845-4712-aeb8-8d6e975bf453}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FeaBeam.cpp">
@@ -69,6 +78,21 @@
     <ClCompile Include="FeMaterialCollection.cpp">
       <Filter>Source Files\Material</Filter>
     </ClCompile>
+    <ClCompile Include="FeElementSection.cpp">
+      <Filter>Source Files\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="FeElementSectionCollection.cpp">
+      <Filter>Source Files\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamSection.cpp">
+      <Filter>Source Files\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshData.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularSolidSection.cpp">
+      <Filter>Source Files\Section</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FeNode.h">
@@ -94,6 +118,21 @@
     </ClInclude>
     <ClInclude Include="FeMaterialCollection.h">
       <Filter>Header Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="FeElementSection.h">
+      <Filter>Header Files\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="FeElementSectionCollection.h">
+      <Filter>Header Files\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamSection.h">
+      <Filter>Header Files\Section\Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularSolidSection.h">
+      <Filter>Header Files\Section\Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>Header Files\Mesh</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

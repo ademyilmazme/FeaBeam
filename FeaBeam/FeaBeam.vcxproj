@@ -182,23 +182,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BeamSection.cpp" />
+    <ClCompile Include="CircularSolidSection.cpp" />
     <ClCompile Include="FeaBeam.cpp" />
     <ClCompile Include="FeElement.cpp" />
     <ClCompile Include="FeElementCollection.cpp" />
+    <ClCompile Include="FeElementSection.cpp" />
+    <ClCompile Include="FeElementSectionCollection.cpp" />
     <ClCompile Include="FeMaterial.cpp" />
     <ClCompile Include="FeMaterialCollection.cpp" />
     <ClCompile Include="FeNode.cpp" />
     <ClCompile Include="FeNodeCollection.cpp" />
+    <ClCompile Include="MeshData.cpp" />
     <ClCompile Include="OrtotropicMaterial.cpp" />
     <ClCompile Include="İsotropicMaterial.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BeamSection.h" />
+    <ClInclude Include="CircularSolidSection.h" />
     <ClInclude Include="FeElement.h" />
     <ClInclude Include="FeElementCollection.h" />
+    <ClInclude Include="FeElementSection.h" />
+    <ClInclude Include="FeElementSectionCollection.h" />
     <ClInclude Include="FeMaterial.h" />
     <ClInclude Include="FeMaterialCollection.h" />
     <ClInclude Include="FeNode.h" />
     <ClInclude Include="FeNodeCollection.h" />
+    <ClInclude Include="MeshData.h" />
     <ClInclude Include="OrtotropicMaterial.h" />
     <ClInclude Include="IsotropicMaterial.h" />
   </ItemGroup>

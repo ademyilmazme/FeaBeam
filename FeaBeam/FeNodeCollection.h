@@ -1,10 +1,11 @@
 #pragma once
 #include "FeNode.h"
-#include <vector>
-class FeNodeCollection: public std::vector<FeNode>
+#include <map>
+class FeNodeCollection: public std::map<int, FeNode>
 {
+public:
 	//add a node to the collection
-	void AddNode(int id, double x, double y, double z);
+	void AddNode(int id,FeNode node);
 	//remove a node from the collection
 	void RemoveNode(int id);
 	//get a node in the collection

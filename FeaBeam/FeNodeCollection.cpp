@@ -1,20 +1,14 @@
 #include "FeNodeCollection.h"
 #include <iostream>
-void FeNodeCollection::AddNode(int id, double x, double y, double z)
-{
-	FeNode node(id, x, y, z);
-	this->push_back(node);
+
+void FeNodeCollection::AddNode(int Id, FeNode value) {
+	this->insert(std::pair<int, FeNode>(Id, value));
+
 }
+
 void FeNodeCollection::RemoveNode(int id)
 {
-	for (int i = 0; i < this->size(); i++)
-	{
-		if (this->at(i).id == id)
-		{
-			this->erase(this->begin() + i);
-			break;
-		}
-	}
+	this->erase(id);
 }
 FeNode* FeNodeCollection::GetNode(int id)
 {

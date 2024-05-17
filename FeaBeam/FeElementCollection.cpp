@@ -1,22 +1,14 @@
 #include "FeElementCollection.h"
 #include <iostream>
 
-void FeElementCollection::AddElement(int id, std::vector<int> nodeIds)
+void FeElementCollection::AddElement(int id, FeElement element)
 {
-	FeElement element(id, nodeIds);
-	this->push_back(element);
+	this->insert(std::pair<int, FeElement>(id, element));
 }
 	
 void FeElementCollection::RemoveElement(int id)
 {
-	for (int i = 0; i < this->size(); i++)
-	{
-		if (this->at(i).Id == id)
-		{
-			this->erase(this->begin() + i);
-			break;
-		}
-	}
+	this->erase(id);
 }
 
 FeElement* FeElementCollection::GetElement(int id)
