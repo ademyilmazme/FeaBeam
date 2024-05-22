@@ -184,6 +184,7 @@
   <ItemGroup>
     <ClCompile Include="BeamSection.cpp" />
     <ClCompile Include="CircularSolidSection.cpp" />
+    <ClCompile Include="FEA.cpp" />
     <ClCompile Include="FeaBeam.cpp" />
     <ClCompile Include="FeElement.cpp" />
     <ClCompile Include="FeElementCollection.cpp" />
@@ -200,6 +201,7 @@
   <ItemGroup>
     <ClInclude Include="BeamSection.h" />
     <ClInclude Include="CircularSolidSection.h" />
+    <ClInclude Include="FEA.h" />
     <ClInclude Include="FeElement.h" />
     <ClInclude Include="FeElementCollection.h" />
     <ClInclude Include="FeElementSection.h" />

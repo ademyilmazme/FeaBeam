@@ -93,6 +93,9 @@
     <ClCompile Include="CircularSolidSection.cpp">
       <Filter>Source Files\Section</Filter>
     </ClCompile>
+    <ClCompile Include="FEA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FeNode.h">
@@ -133,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="MeshData.h">
       <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="FEA.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
